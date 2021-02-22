@@ -1,0 +1,295 @@
+@import url("reset.css");
+@import url("course.css");
+
+/* ===============================================================================================
+ Base style
+ ============================================================================================== */
+ /* font style */
+html {
+  font-size: 14px;
+  font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+  color: #222;
+}
+
+input, select, textarea {
+  color: #222;
+}
+
+/* anchor style */
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+}
+
+main {
+  display: block;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input:focus {
+  outline: 0;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+@media screen and (max-width: 1080px) {
+  main {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  main {
+    padding-top: 52px;
+  }
+  html {
+    font-size: 15px;
+  }
+}
+
+/* =====================================================================================================================
+ Modules
+ ===================================================================================================================== */
+.pc-dn {
+  display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+  .pc-dn {
+    display: block !important;
+  }
+  .sp-dn {
+    display: none !important;
+  }
+}
+
+/* ========================================
+ content-width
+ ======================================= */
+.content-width {
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* ========================================
+ contents-tidy
+ ======================================= */
+.contents-tidy {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav-list.contents-tidy {
+  align-items: center;
+}
+
+/* ========================================
+ hover
+ ======================================= */
+ @media screen and (min-width: 767px) {
+   /*style */
+   .hover-opacity {
+     transition: opacity 0.2s;
+   }
+ }
+ 
+ .hover-opacity:hover {
+   opacity: 0.7;
+ }
+ 
+ .hover-scale {
+   transform: scale(1.05);
+ }
+ 
+ .hover-text-color {
+   transition: 0.2s;
+   a:hover .hover-text-color, .hover-text-color:hover {
+     color: #f79314;
+   }
+   a.link-button {
+     color: #fff;
+   }
+ }
+ 
+ /* ===================================================
+ Modules:link-button
+ =================================================== */
+ .link-button {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: #fff;
+   background-color: #f79314;
+   border-radius: 30px;
+   text-decoration: none;
+   text-align: center;
+   align-items: center;
+   font-weight: bold;
+   width: 100%;
+   height: 60px;
+   font-size: 20px;
+   border: none;
+ }
+ 
+ .link-button.menu {
+   height: 40px;
+   font-size: 12px;
+ }
+ 
+ @media screen and (min-width: 767px)
+ a.link-button {
+   color: #fff;
+ }
+ 
+/* ===================================================
+Modules:section-title
+=================================================== */
+.section-header {
+  width: 100%;
+}
+
+.section-header.contents-tidy {
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-main-heading {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.section-header h2 > span {
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+.section-header.bottom-line::after {
+  content: '';
+  display: block;
+  border-bottom: solid 6px #f79314;
+  width: 50px;
+  margin-top: 20px;
+}
+/* ========================================
+ site-header
+======================================== */
+.site-header {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.site-header .site-header-inner > *:last-child {
+  display: inline-flex;
+}
+
+/* ========================================
+header-logo
+======================================== */
+.header-logo > .header-logo-pc {
+  width: auto;
+  height: 20px;
+}
+
+.header-logo > .header-logo-sp {
+  display: none;
+}
+
+/* ========================================
+header-nav
+======================================== */
+.header-nav-humburger {
+  display: none;
+}
+
+.header-nav .header-nav-item {
+  display: block;
+}
+
+.header-nav .header-nav-item >span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header-nav .header-nav-item span:first-child {
+  font-family: 'Lato', sans-serif;
+}
+
+.header-nav .header-nav-item span:last-child {
+  font-size: 10px;
+}
+
+.header-nav .header-nav-list > li + li {
+  margin-left: 30px;
+}
+
+.header-nav .header-nav-list > li + li:last-child {
+  margin-left: 20px;
+}
+
+/* ================================================
+header-button
+================================================ */
+.header-button {
+  width: 150px;
+}
+
+/* ========================================
+site-hooter
+======================================== */
+.site-footer {
+   padding-top: 80px;
+   padding-bottom: 40px;
+   background-color: #f79314;
+}
+
+/* ========================================
+Layout: section
+======================================== */
+
+.main-section {
+  padding-top: 65px;
+  padding-bottom: 80px;
+}
+
+.main-section.corse-detail {
+  background-color: #fcfaf5;
+}
+
+.main-section .section-header + .section-content {
+  margin-top: 60px;
+}
+
+/* ===============================================
+Module: desc-list
+=============================================== */
+
+.list-no {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -90px auto 0 auto;
+  background-color: #fcfaf5;
+  border-radius: 50%;
+  color: #f79314;
+  font-weight: bold;
+  font-size: 40px;
+}
