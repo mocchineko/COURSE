@@ -34,7 +34,7 @@ img {
  ===================================== */
 
 .section-underlayer-hero.course {
-    background-image: url(../images/course-hero-pc.png);
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
 }
 
 .underlayer-hero-heading.course {
@@ -43,7 +43,7 @@ img {
 
 @media screen and (max-width: 767px) {
     .section-underlayer-hero.course {
-        background-image: url(../images/course-hero-sp.png);
+        background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-sp.png);
     }
     .underlayer-hero-heading.course {
         padding-left: 0px;
@@ -52,7 +52,7 @@ img {
 
 @media screen and (max-width: 374px) {
     .section-underlayer-hero.course {
-        background-image: url(../images/course-hero-sp.png);
+        background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-sp.png);
         padding-top: 35px;
         padding-bottom: 75px;
     }
@@ -164,7 +164,7 @@ img {
     width: 23px;
     height: 20px;
     margin-right: 10px;
-    background: url(../images/icon-finger.png) no-repeat;
+    background: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-finger.png) no-repeat;
     background-size: 100%;
 }
 
@@ -675,7 +675,7 @@ Module: detail-course-block
     width: 16px;
     height: 10px;
     margin-right: 16px;
-    background-image: url(../images/icon-arrow.png);
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-arrow.png);
     background-size: 100%;
     transform: translateY(-50%);
 }
@@ -685,7 +685,7 @@ Module: detail-course-block
 }
 
 .plan-nav-list a:hover::before {
-    background-image: url(../images/icon-arrow-hover.png);
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-arrow-hover.png);
 }
 
 .plan-nav-list a.openclass {
@@ -706,7 +706,7 @@ Module: detail-course-block
     left: 72px;
     height: 32px;
     width: 32px;
-    background-image: url(../images/course/icon_open_link.png);
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course/icon_open_link.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -797,7 +797,7 @@ Module: detail-course-block
         background-color: transparent;
     }
     .plan-nav-list a:hover::before {
-        background-image: url(../images/icon-arrow.png);
+        background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-arrow.png);
     }
     .plan-nav-list:hover {
         background-color: #fff;
@@ -900,7 +900,7 @@ Module: detail-course-block
     left: 0;
     right: 0;
     margin: auto;
-    background-image: url(../images/course/icon-openclass_plan.png);
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course/icon-openclass_plan.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -948,7 +948,7 @@ Module: detail-course-block
     width: 20px;
     height: 20px;
     margin-right: 8px;
-    background-image: url(../images/icon-point.png);
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-point.png);
     background-size: 100%;
 }
 
@@ -993,33 +993,33 @@ Module: detail-course-block
 .desc-title.detail::before {
     width: 17px;
     height: 17px;
-    background-image: url(../images/icon-pencil.png);
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-pencil.png);
 }
 
 .desc-title.term::before {
     width: 16px;
     height: 18px;
     margin-left: 2px;
-    background-image: url(../images/icon-calender.png);
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-calender.png);
 }
 
 .desc-title.condition::before {
     width: 17px;
     height: 14px;
     margin-left: 2px;
-    background-image: url(../images/icon-condition.png);
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-condition.png);
 }
 
 .desc-title.fee::before {
     width: 20px;
     height: 20px;
-    background-image: url(../images/icon-coin.png);
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-coin.png);
 }
 
 .desc-title.development::before {
     width: 20px;
     height: 15px;
-    background-image: url(../images/icon-pc.png);
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/icon-pc.png);
 }
 
 .desc-text {
